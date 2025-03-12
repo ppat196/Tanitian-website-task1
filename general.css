@@ -1,0 +1,129 @@
+body{
+    background-color: #1a8a84;
+    margin: 0;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #20B2AA;
+}
+
+nav ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    font-size: 35px;
+    width: 1200px;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px 30px;
+    font-weight: 1000;
+}
+
+nav ul li:hover{
+    background-color: #FF7F50;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    background-color: #F0F8FF;
+}
+
+.fancy-btn {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fancy-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.fancy-btn:active {
+    transform: scale(0.95);
+    background: linear-gradient(135deg, #fc6076, #ff9a44);
+}
+
+.fancy-btn:hover {
+    box-shadow: 0 20px 40px rgba(255, 126, 95, 0.3);
+}
+
+
+footer{
+    box-sizing: border-box;
+    width: 1200px;
+    background-color: #2F4F4F;
+    margin-top: auto;
+    color: #F0F8FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul{
+    padding: 0px;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer ul li img{
+    width: 40px;
+}
+
+#logo-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px
+}
+
+footer a{
+    color: #20B2AA;
+}
+
+footer a:active{
+    color:#1a8a84
+}

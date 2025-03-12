@@ -1,0 +1,35 @@
+section{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    box-sizing: border-box;
+    padding: 10px 100px 100px 100px;
+    display: flex;
+    gap: 100px;
+}
+
+.intro-section{
+    display: block;
+    text-align: center;
+}
+
+section h1{
+    font-size: 40px;
+}
+
+section h2{
+    font-size: 30px;
+}
+
+section p{
+    font-size: 25px;
+}
+
+section img{
+    width: 300px;
+    height: auto;
+}
